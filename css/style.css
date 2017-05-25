@@ -1,0 +1,84 @@
+.row{
+	display: block;
+	width: 100%;
+	position: absolute;
+	font-family: 'Merriweather Sans', sans-serif;
+}
+
+.top{
+	display: inline-block;
+	width: 100%;
+	background-color: #f6f9f9;
+	padding: 15px 0 15px 0;
+}
+
+
+.top span{
+	font-size: 25px;
+	vertical-align: super;
+	color: #2d3950;
+	position: relative;
+	left: 20.5%;
+}
+
+.top img{
+	position: relative;
+	left: 20%;
+	vertical-align: bottom;
+	height: 37px;
+	width: 37px;
+}
+
+/*--------------------------*/
+.banner{
+	position: relative;
+	height: 800px;
+	background-image: url(../img/banner.jpg);
+	background-size: cover;
+	text-align: center;
+}
+
+.banner span{
+	position: relative;
+	top:25%;
+	font-size: 100px;
+	color: #ffffff;
+}
+.banner span::after{
+	background-color: #15a4fa;
+	display: block;
+	position: relative;
+	left: 31%;
+	content: '';
+	width: 500px;
+	margin-top: 17px; 
+	height: 1px;
+}
+
+.banner p{
+	position: relative;
+	top: 29%;
+	font-size: 16px;
+	color: #ffffff;
+}
+
+.banner button{
+	position: relative;
+	top: 35%;
+	width: 175px;
+	height: 55px;
+	background-color: #15a4fa;
+	color: #ffffff;
+	font-size: 18px;
+	border: none;
+	transition: .3s;
+}
+
+.banner button:hover{
+	background-color: #00b8fa;
+}
+
+
+/*----------------------------------------*/
+
+
