@@ -1,190 +1,24 @@
-.row{
-	display: block;
-	width: 100%;
-	position: absolute;
-	font-family: 'Merriweather Sans', sans-serif;
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  content: " ";
+}
+.clearfix:after{
+  clear: both;
 }
 
-.top{
-	display: inline-block;
-	width: 100%;
-	background-color: #f6f9f9;
-	padding: 15px 0 15px 0;
+/*------------------------------------------*/
+
+.header_topline{
+	background-color: #d0d3d3;
+	padding: 15px 0;
 }
 
-
-.top span{
-	font-size: 25px;
-	vertical-align: super;
-	color: #2d3950;
-	position: relative;
-	left: 20.5%;
-}
-
-.top img{
-	position: relative;
-	left: 20%;
-	vertical-align: bottom;
-	height: 37px;
-	width: 37px;
-}
-
-/*--------------------------*/
-.banner{
-	position: relative;
-	height: 700px;
+.header_topImg{
 	background-image: url(../img/banner.jpg);
-	background-size: cover;
+	height: 800px;
+}
+
+.top_img{
 	text-align: center;
-}
-
-.banner span{
-	position: relative;
-	top:25%;
-	font-size: 100px;
-	color: #ffffff;
-}
-.banner span::after{
-	background-color: #15a4fa;
-	display: block;
-	position: relative;
-	left: 31%;
-	content: '';
-	width: 500px;
-	margin-top: 17px; 
-	height: 1px;
-}
-
-.banner p{
-	position: relative;
-	top: 29%;
-	font-size: 15px;
-	color: #ffffff;
-}
-
-.banner button{
-	position: relative;
-	top: 35%;
-	width: 175px;
-	height: 55px;
-	background-color: #15a4fa;
-	color: #ffffff;
-	font-size: 18px;
-	border: none;
-	transition: .3s;
-}
-
-.banner button:hover{
-	background-color: #00b8fa;
-}
-
-
-/*----------------------------------------*/
-
-
-.simple_and_Pure_Design{
-	width: 100%;
-	height: 250px;
-	background-color: #f6f9f9;
-	display: block;
-	position: relative;
-	text-align: center;
-}
-
-.simple_and_Pure_Design span{
-	color: #2d3950;
-	position: relative;
-	top: 25%;
-	font-size: 25px;
-}
-
-.simple_and_Pure_Design p{
-	color: #999999;
-	position: relative;
-	top: 31%;
-	font-size: 14px;
-}
-
-/*--------------------------------------*/
-
-
-.feature{
-	display: block;
-	width: 100%;
-	height: 250px;
-	background-color: #ffffff;
-	position: absolute;
-}
-
-
-.responsive{
-	left: 15%;
-	top: 20%;
-	text-align: center;
-	display: block;
-	position: absolute;
-}
-
-.font_awesome_icon{
-	left: 40%;
-	top: 20%;
-	text-align: center;
-	display: block;
-	position: absolute;
-
-}
-
-.clean_design{
-	left: 65%;
-	top: 20%;
-	text-align: center;
-	display: block;
-	position: absolute;
-}
-
-.bg_1{
-	float: left;
-	position: relative;
-	width: 100px;
-	height: 100px;
-	left: 30px;
-	background-color: #48baff;
-	z-index: 1;
-	transition: 0.5s;
-}
-
-.bg_2{
-	display: inline-block;
-	position: relative;
-	width: 100px;
-	height: 100px;
-	right: 45px;
-	z-index: 0;
-	background-color: #5fc3ff;
-}
-
-.active{
-	height: 50px;
-	position: absolute;
-	right: 95px;
-	bottom: 70px;
-	z-index: 10;
-}
-
-.feature span{
-	top: 10px;
-	color: #2d3950;
-	font-size: 16px;
-	position: relative;
-}
-
-.feature p{
-	top: 20px;
-	color: #999999;
-	font-size: 12px;
-	position: relative;
-}
-
-.active:hover ~ .bg_1{
-	left: 76px;
 }
